@@ -134,7 +134,7 @@ def optimize_ga(X,y, X_test, y_test, pop_size, cols_per_pop, num_generations, nu
         fitness,_ =  cal_pop_fitness(new_population, X, y,X_test, y_test, pop_size)
         # melhor resultado na iteracao
         if verbose:
-            passprint("Best result : {}".format(np.max(fitness)))
+            print("Best result : {}".format(np.max(fitness)))
         
     # apos iterar por todas as geracoes pegar a melhor solucao
     # calculamos o fit para cada solucao
