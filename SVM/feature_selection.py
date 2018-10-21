@@ -29,7 +29,7 @@ reload(GA)
 def get_MIC_features(X, Y, n_features=None):
 
 	#O cálculo da informação mútua é realizado ao chamarmos o método implementado no pacote SKLearn
-	MIC = feature_selection.mutual_info_classif(X=X_train, y=Y)
+	MIC = feature_selection.mutual_info_classif(X=X, y=Y)
 
 	#A resposta é convertida para um dataframe para facilitar a visualização e manipulação
 	mic_df = pd.DataFrame(MIC)
