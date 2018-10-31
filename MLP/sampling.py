@@ -36,3 +36,7 @@ def get_sample(sample_size = 10000, IMG_SIZE = 400, random_state=42):
 	Y_train = pd.DataFrame(Y)
 
 	return X_train,Y_train
+
+def get_min_max_normalization(data):
+	# normaliza X
+	return (data - data.min()) / (data.max() - data.min())
