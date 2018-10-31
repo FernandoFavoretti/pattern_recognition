@@ -1,0 +1,4 @@
+alpha,auc,camadas_ocultas,funcao_ativacao,num_epocas,precision,recall,tipo
+0.001,0.5,"(10, 1)",logistic,500,0.4772727272727273,0.4772727272727273,Todas as Caracteristicas
+0.01,0.5,"(10, 1)",logistic,500,0.4772727272727273,0.4772727272727273,Todas as Caracteristicas
+0.1,0.5,"(10, 1)",logistic,500,0.4772727272727273,0.4772727272727273,Todas as Caracteristicas
