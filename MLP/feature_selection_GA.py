@@ -95,7 +95,7 @@ def sanity_pop(actual_pop, must_pop):
         pass
     return final_pop
     
-def optimize_ga(X,y, X_test, y_test, pop_size, cols_per_pop, num_generations, num_parents_mating, verbose=False):
+def optimize_ga(X,y, X_test, y_test, pop_size, cols_per_pop, num_generations, num_parents_mating, verbose=True):
     # numero de solucoes esperadas por populacao
     solution_per_pop = pop_size
     # tamanho da minha populacao
